@@ -9,6 +9,14 @@
 
 // Add your code right below, good luck!
 
+firstName = "Carlos"
+lastName = "Stevenson"
+thisYear = 1965
+birthYear = 1947
+
+fullname = firstName + " " + lastName
+age = thisYear - birthYear
+greeting = "Hello! My name is " + fullname + " and I am " + age + " years old."
 
 
 
