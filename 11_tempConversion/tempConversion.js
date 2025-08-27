@@ -1,9 +1,12 @@
-const convertToCelsius = function() {
+const convertToCelsius = function(FahrTemp) {
+  let celsius = (FahrTemp - 32) * (5 / 9)
+  return celsius
 };
 
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(celsiusTemp) {
+  let fahrenheit = celsiusTemp * (9 / 5) + 32
+  return fahrenheit
 };
-
 // Do not edit below this line
 module.exports = {
   convertToCelsius,
